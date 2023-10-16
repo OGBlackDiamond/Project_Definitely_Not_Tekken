@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://qqbgbl0lhafc"]
+
+[ext_resource type="Texture2D" uid="uid://oxl4skga435t" path="res://icon.svg" id="1_ipiol"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qvgf5"]
+
+[node name="Player" type="CharacterBody2D"]
+metadata/_edit_vertical_guides_ = [5190.0]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qvgf5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ipiol")
